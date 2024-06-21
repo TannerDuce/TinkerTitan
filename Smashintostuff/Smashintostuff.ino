@@ -42,7 +42,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   distance = ultrasonic.read();
   Serial.println(distance);
-  if(distance<26)
+  if(distance<30)
   {
     smash();
   }
