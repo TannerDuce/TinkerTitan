@@ -35,3 +35,19 @@ from the left motor go to the left terminal block, and the same for the right. (
 it in to ensure the battery pack is on. The green light should stay on, solid.
 ![20240626_130730](https://github.com/TannerDuce/TinkerTitan/assets/61127003/cd1142f2-f58e-4344-9a3e-cbdbb3213812)
 
+Next, we will assemble the tracks. using the hardware from the back the tracks come in, place the nut in the front slot.
+take the short bolt and after placing the wheel on the bolt, add a washer and fasten it to the chassis. for the driven
+wheel, find the wheel with the keyed D shaft, and fit it onto the motor. once both are in place, stretch the track over
+the two sprockets. do this for both sides of the robot:
+![20240626_160846](https://github.com/TannerDuce/TinkerTitan/assets/61127003/c4f9eed8-3f56-45e2-b058-bbcbae5e27fb)
+
+Now that the base model is complete, we will add the sensor assembly. this gives the robot the ability to compete in the
+sumo challenge, as well as do things such as line following. start by clipping the Ultrasonic sensor into the piece with
+the dovetail on it. for this step, make sure that the connector on the ultrasonic sensor faces the opposite way of the 
+opening on the dovetail connector. once it is in place, slide the line following module into the remaining piece, and fit
+it over the "eyes" of the ultrasonic sensor.
+![20240627_135216](https://github.com/TannerDuce/TinkerTitan/assets/61127003/4a3e1011-6aa9-496b-b101-34f63622f989)
+
+
+
+
