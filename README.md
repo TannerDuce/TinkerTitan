@@ -52,8 +52,13 @@ Now that the base model is complete, we will add the sensor assembly. this gives
 sumo challenge, as well as do things such as line following. start by clipping the Ultrasonic sensor into the piece with
 the dovetail on it. for this step, make sure that the connector on the ultrasonic sensor faces the opposite way of the 
 opening on the dovetail connector. once it is in place, slide the line following module into the remaining piece, and fit
-it over the "eyes" of the ultrasonic sensor.
+it over the "eyes" of the ultrasonic sensor. 
 ![20240627_135216](https://github.com/TannerDuce/TinkerTitan/assets/61127003/4a3e1011-6aa9-496b-b101-34f63622f989)
+
+Once this module is assembled, slide it into the dovetail on the chassis. for wiring, we use IR#2 for the line sensor,
+and the header labelled HC-SR04 for the ultrasonic sensor. As for the line sensor, the pins on the module connect to the 
+following pins on the board. OUT --> A6, GND --> GND, and VCC --> 5V. for the Ultrasonic, All the names of the pins match
+exept for power, which on the module is labled VCC and on the board is noted as 5V
 
 
 
