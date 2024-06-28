@@ -57,8 +57,10 @@ it over the "eyes" of the ultrasonic sensor.
 
 Once this module is assembled, slide it into the dovetail on the chassis. for wiring, we use IR#2 for the line sensor,
 and the header labelled HC-SR04 for the ultrasonic sensor. As for the line sensor, the pins on the module connect to the 
-following pins on the board. OUT --> A6, GND --> GND, and VCC --> 5V. for the Ultrasonic, All the names of the pins match
-exept for power, which on the module is labled VCC and on the board is noted as 5V
+following pins on the board. OUT --> A6, GND --> GND, and VCC --> 5V. For the Ultrasonic, All the names of the pins match
+except for power, which on the module is labelled VCC and on the board is noted as 5V. 
+![20240627_222037](https://github.com/TannerDuce/TinkerTitan/assets/61127003/91bf88d0-1544-4bac-a864-d427d79f978a)
+
 
 
 
