@@ -93,4 +93,4 @@ Once its been loaded in,(orange) select "Write" and then "GO". you have now sucs
 
 **Uploading your first program**
 here, we will make sure both motors are wired in the correct way, as well as verify that the Line sensor and Ultrasonic work.
-Using the arduino IDE, open the 
+Using the arduino IDE, open the Initializer code, and try uploading it. ensure you have the correct COM port, and that the board selected is and arduino UNO. keep it connected to the computer, and open the terminal in the IDE. once the correct BAUD rate is selected (9600) you should see a walk through of what the code will do.
