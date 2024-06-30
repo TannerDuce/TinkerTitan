@@ -65,6 +65,7 @@ except for power, which on the module is labelled VCC and on the board is noted 
 
 
 
+
 **2. Setup Programing:**
 You have now completed the hardware assembly, and it is time to move on to the programing! with a fresh board out of the box, 
 it will not have a bootloader programmed into it, which is a specific peice of startup code that must be on the chip in order
@@ -91,7 +92,9 @@ Once its been loaded in,(orange) select "Write" and then "GO". you have now sucs
 ![Step3program](https://github.com/TannerDuce/TinkerTitan/assets/61127003/331de693-2a4d-4cc7-82db-e373097f42ed)
 
 
-**Uploading your first program**
+
+
+**3. Uploading your first program**
 here, we will make sure both motors are wired in the correct way, as well as verify that the Line sensor and Ultrasonic work.
 Using the arduino IDE, open the Initializer code, and try uploading it. ensure you have the correct COM port, and that the board
 selected is and arduino UNO. keep it connected to the computer, and open the terminal in the IDE. once the correct BAUD rate is
