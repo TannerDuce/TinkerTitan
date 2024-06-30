@@ -82,7 +82,7 @@ in the terminal.
 
 Second, we will program the fuse bits. note we only want to edit the fuse bit, NOT the lock bit. Copy the values shown in the
 picture for the bits shown in the blue box, then the hit Program (red arrow)
-![Step2program](https://github.com/TannerDuce/TinkerTitan/assets/61127003/72b57f94-9ffb-4744-b799-bd4af3b55ccc)
+![Step2program](https://github.com/TannerDuce/TinkerTitan/assets/61127003/a49e99dd-13fa-436a-914e-c02ff66467ac)
 
 
 finaly, we can add in the hex file, and program the boot loader which will be the last step required to be able to use the usb
