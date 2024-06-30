@@ -93,4 +93,12 @@ Once its been loaded in,(orange) select "Write" and then "GO". you have now sucs
 
 **Uploading your first program**
 here, we will make sure both motors are wired in the correct way, as well as verify that the Line sensor and Ultrasonic work.
-Using the arduino IDE, open the Initializer code, and try uploading it. ensure you have the correct COM port, and that the board selected is and arduino UNO. keep it connected to the computer, and open the terminal in the IDE. once the correct BAUD rate is selected (9600) you should see a walk through of what the code will do.
+Using the arduino IDE, open the Initializer code, and try uploading it. ensure you have the correct COM port, and that the board
+selected is and arduino UNO. keep it connected to the computer, and open the terminal in the IDE. once the correct BAUD rate is
+selected (9600) you should see a walk through of what the code will do. if you notice either of the motors is backwards, switch
+the two wires associated with it around in the terminal block it is connected to. if one motor apears to be stronger than the
+other, ajust its weight_value, which is simply a number that the final speed is multiplied by. to set up the line sensor, wave
+it over a dar and light patch on paper. if the program cannot tell a difference, try ajusting the potentiometer on the line
+sensor.if the line sensor or ultrasonicappear to not be working, ensure all the wires are in the correct spot.
+
+Once it all works, you can go ahead and upload some of the other code provided onto the robot, or try writing some of your own!
