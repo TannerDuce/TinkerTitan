@@ -19,6 +19,7 @@ Next, we will fit the motors into the main chassis. Note that there is a tab on 
 helps to hold it in place. if the motor is set in upside-down, it simply will not fit in all the way and will need 
 to be flipped around. Once the motors are in place, use #4 hardware to secure them, as shown below. Once they are in
 place, the cables must be routed along the central channel to provide space for the battery to be set in place on top of them
+
 ![motorinstalation](https://github.com/TannerDuce/TinkerTitan/assets/61127003/68c9e55d-84d1-4e0d-beac-ef2364e66345)
 
 
