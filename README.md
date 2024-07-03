@@ -46,6 +46,7 @@ Using the machined stand-offs, mount the circuit board to the top of the cover p
 Next, wire up your motors into the terminal blocks at the bottom. Don't worry about polarity yet, as long as the 2 wires
 from the left motor go to the left terminal block, and the same for the right. (we will correct this later) Try plugging
 it in to ensure the battery pack is on. The green light should stay on, solid.
+
 ![20240626_130730](https://github.com/TannerDuce/TinkerTitan/assets/61127003/e0a387bf-c246-4b65-8cac-20e94e794f5a)
 
 
