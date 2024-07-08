@@ -17,7 +17,7 @@ int distance;
 int SUMOSTATE = 0;
 
 //===========================================USER VARIBLES==================================================
-#define trigger_distance 70 // distance(cm) before robot will trigger. set this to the ring diametre for best results
+#define trigger_distance 60 // distance(cm) before robot will trigger. set this to the ring diametre for best results
 #define grace_period 5000 //the number in (ms) before the robot will begin searching for other bots.
 
 void setup() {
@@ -69,7 +69,7 @@ void loop() {
   delay(30); //this shouldnt be here, but the ultrasonic cant keep up, so it is
   if(SUMOSTATE == 0)
   {
-    if((analogRead(6))<500)   //use < if the ring is black with a white line and > for vice versa
+    if((analogRead(6))>500)   //use < if the ring is black with a white line and > for vice versa
     {
       //if this code runs, that means we have seen a line!
       SUMOSTATE = 1;
@@ -80,12 +80,13 @@ void loop() {
       //if this code runs, that means we have seen a robot!
       Serial.println("ultrisonic trigger");
       SUMOSTATE = 2;
+      delay(100);
     }
 
     else
     {
       //neither exit condition was met, so we slowly turn to the left and keep searching
-      drive(4,0);
+      drive(5,-5);
     }
 
   }
@@ -106,7 +107,7 @@ void loop() {
   {
     //we see a robot, time to push it out of the circle!
     drive(-9,-9);
-    if((analogRead(6))<500)
+    if((analogRead(6))>500)
     {
       // after setting the motors to almost full speed, we continuiosly check if we have seen the line. if so,
       applyBrake();
