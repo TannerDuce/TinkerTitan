@@ -29,7 +29,7 @@ place, the cables must be routed along the central channel to provide space for 
 Next up is the battery. once you have assembled the battery pack, insert it into the chassis as shown. make sure the
 switch on the battery pack is turned on, as it will no longer be accessible. instead of using the switch, the Tinker 
 Titan was designed just to be unplugged to power it off.
-![motorinstalation](https://github.com/TannerDuce/TinkerTitan/assets/61127003/b9dbe232-90a1-48c8-b10e-a012893d4384)
+![batterypackinstalation](https://github.com/TannerDuce/TinkerTitan/assets/61127003/87228cf1-47d4-4f7b-b382-aebde7c4e3ec)
 
 
 
