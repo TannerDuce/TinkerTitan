@@ -4,8 +4,10 @@ Here we will give some basic instructions on how to set up your Tinker Titan, St
 
 **1. Board Assembly:**
 
-Start by soldering the provided connectors onto the main PCB. note that the 2x3 connector in the center of the board is 
-intentionally left blank, as it is the ISP header used to burn the first files onto the Atmel chip. <-(more on this later)
+Start by soldering the provided connectors onto the main PCB. Depending on how your doing this program, you may also have to
+install the surface mount parts yourself, or all of the components will come pre-installed on the circuit board.note that the
+2x3 connector in the center of the board is intentionally left blank, as it is the ISP header used to burn the first files
+onto the Atmel chip. <-(more on this later)                               .
 ![20240626_102552](https://github.com/TannerDuce/TinkerTitan/assets/61127003/7baaa9eb-f2da-477c-9ff0-047269d639a3)
 
 
