@@ -112,8 +112,8 @@ void coast()
 void smash()
 {
   delay(100);
-  drive(-8,-8);
-  delay(1500);
   drive(8,8);
+  delay(1500);
+  drive(-8,-8);
   delay(1500);
 }
