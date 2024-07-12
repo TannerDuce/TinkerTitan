@@ -121,3 +121,5 @@ it over a dar and light patch on paper. if the program cannot tell the differenc
 sensor. If the line sensor or ultrasonic appear to not be working, ensure all the wires are in the correct spot.
 
 Once it all works, you can go ahead and upload some of the other code provided onto the robot, or try writing some of your own!
+
+And please, by all means if you encounter a problem, go to the issues tab on this github page and report an issue! I will do my best to respond accordingly.
