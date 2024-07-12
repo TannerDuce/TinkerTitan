@@ -134,6 +134,12 @@ void loop() {
         Serial.println("welp, im here");
         myservoleft.write(0);//Bucket up pos
         myservoright.write(180);
+        if((analogRead(6))>500)
+        {
+          // after setting the motors to almost full speed, we continuiosly check if we have seen the line. if so,
+          applyBrake();
+          SUMOSTATE = 1;
+        }
         delay(200);
         myservoleft.write(90);//Bucket down pos
         myservoright.write(90);
