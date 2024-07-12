@@ -25,7 +25,7 @@ int distance;
 int SUMOSTATE = 0;
 
 //===========================================USER VARIBLES==================================================
-#define trigger_distance 70 // distance(cm) before robot will trigger. set this to the ring diametre for best results
+#define trigger_distance 50 // distance(cm) before robot will trigger. set this to the ring diametre for best results
 #define grace_period 5000 //the number in (ms) before the robot will begin searching for other bots.
 
 void setup() {
