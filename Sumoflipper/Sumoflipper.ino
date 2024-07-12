@@ -49,8 +49,8 @@ void setup() {
   //after initializing everything, wait for the grace period to end. this gives time to plug in the robot,
   //and get it properly positioned in the circle before the match begins
   delay(grace_period);
-  myservoleft.write(5);//Bucket down pos
-  myservoright.write(170);
+  myservoleft.write(90);//Bucket down pos
+  myservoright.write(90);
 
 
 
