@@ -89,11 +89,19 @@ void loop() {
       SUMOSTATE = 1;
     }
 
-    else if(distance < trigger_distance && distance != 0)
+    else if(distance < trigger_distance)
     {
+      if(distance != 0)
+      {
+        //if this code runs, that means we have seen a robot!
+        Serial.println("ultrisonic trigger");
+        SUMOSTATE = 2;
+        delay(100);
+      }
+    
       //if this code runs, that means we have seen a robot!
-      Serial.println("ultrisonic trigger");
-      SUMOSTATE = 2;
+      // Serial.println("ultrisonic trigger");
+      // SUMOSTATE = 2;
     }
 
     else
