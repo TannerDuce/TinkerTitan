@@ -83,13 +83,13 @@ void loop() {
   delay(30); //this shouldnt be here, but the ultrasonic cant keep up, so it is
   if(SUMOSTATE == 0)
   {
-    if((analogRead(6))<500)   //use < if the ring is black with a white line and > for vice versa
+    if((analogRead(6))>500)   //use < if the ring is black with a white line and > for vice versa
     {
       //if this code runs, that means we have seen a line!
       SUMOSTATE = 1;
     }
 
-    else if(distance < trigger_distance)
+    else if(distance < trigger_distance && distance != 0)
     {
       //if this code runs, that means we have seen a robot!
       Serial.println("ultrisonic trigger");
@@ -99,7 +99,7 @@ void loop() {
     else
     {
       //neither exit condition was met, so we slowly turn to the left and keep searching
-      drive(4,0);
+      drive(6,-6);
     }
 
   }
@@ -120,18 +120,19 @@ void loop() {
   {
     //we see a robot, time to push it out of the circle!
     drive(-9,-9);
-    if(distance>333)
+    if(distance>333 || distance<5)
     {
-      Serial.println("welp, im here");
-      myservoleft.write(47);//Bucket up pos
-      myservoright.write(120);
-      delay(40);
-      myservoleft.write(5);//Bucket down pos
-      myservoright.write(170);
-      delay(40);
-
+      
+        Serial.println("welp, im here");
+        myservoleft.write(0);//Bucket up pos
+        myservoright.write(180);
+        delay(200);
+        myservoleft.write(90);//Bucket down pos
+        myservoright.write(90);
+        delay(40);
+      
     }
-    if((analogRead(6))<500)
+    if((analogRead(6))>500)
     {
       // after setting the motors to almost full speed, we continuiosly check if we have seen the line. if so,
       applyBrake();
