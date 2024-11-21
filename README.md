@@ -97,7 +97,7 @@ in the terminal.
 
 
 Second, we will program the fuse bits. note we only want to edit the fuse bit, NOT the lock bit. Copy the values shown in the
-picture for the bits shown in the blue box, then the hit Program (red arrow)
+picture for the bits shown in the blue box, then the hit Write (red arrow)
 ![Step2program](https://github.com/TannerDuce/TinkerTitan/assets/61127003/a49e99dd-13fa-436a-914e-c02ff66467ac)
 
 
