@@ -9,7 +9,7 @@
 #define right_motor_sleep 2
 #define right_motor_a 3
 #define right_motor_b 11
-#define right_motor_weight 0.87 //the final value sent to the motor will be multipled by this. set it between 0 and 1
+#define right_motor_weight 1 //the final value sent to the motor will be multipled by this. set it between 0 and 1
 
 
 
