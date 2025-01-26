@@ -90,14 +90,14 @@ instructor, but it still doesn't hurt to know what's happening! afterwards, we w
 Start by installing the application AVRDUDESS here-> https://github.com/ZakKemble/AVRDUDESS/releases/tag/v2.17 
 this application is used to burn the bootloader, which is a term used for adding some code directly onto the microcontroller 
 that tells it how to receive code from the USB port. once the application is open, we will set the -b bit clock divider to 16,
-(Green box) and then click the detect button (blue box). if done correctly, the board should be recognized and will be confirmed
+(Green box) and then click the detect button (orange box). if done correctly, the board should be recognized and will be confirmed
 in the terminal.
 ![Step1program](https://github.com/TannerDuce/TinkerTitan/assets/61127003/4777b202-1389-4595-a51f-b5f71e2d5b7c)
 
 
 
 Second, we will program the fuse bits. note we only want to edit the fuse bit, NOT the lock bit. Copy the values shown in the
-picture for the bits shown in the blue box, then the hit Program (red arrow)
+picture for the bits shown in the blue box, then the hit Write (red arrow)
 ![Step2program](https://github.com/TannerDuce/TinkerTitan/assets/61127003/a49e99dd-13fa-436a-914e-c02ff66467ac)
 
 
