@@ -33,13 +33,13 @@ void setup() {
   digitalWrite(right_motor_sleep, HIGH);
 
   Serial.println("for this initialization, the code will tell both motors to drive forward");
-  delay(3000);
+  delay(1000);
   Serial.println("if one of the motors is backwards, simply switch the wires in the terminal block of the corrisponding motor");
-  delay(4000);
+  delay(1000);
   Serial.println("if one of the motors appears to be stronger than the other, edit its motor_weight at the top of the code");
-  delay(4000);
+  delay(1000);
   Serial.println("here we will also print the values of the ultrasonic sensor and line sensor so that you can ensure they both work");
-  delay(4000);
+  delay(1000);
   Serial.println("Here we go!");
   delay(333);
   drive(4,4);
