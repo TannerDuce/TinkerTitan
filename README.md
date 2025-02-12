@@ -1,5 +1,11 @@
 Tinker Titan V1
 
+New documentation Here --> https://docs.google.com/document/d/1ggTJ-sIj0q-C6EPkmgzcmBBHiNBAO2c4_2ZdBtOWOQ4/edit?tab=t.0
+
+
+
+The following set of instructions is outdated, left for reference
+
 Here we will give some basic instructions on how to set up your Tinker Titan, Start to Finish.
 
 **1. Board Assembly:**
