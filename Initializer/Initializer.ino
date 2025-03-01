@@ -1,4 +1,6 @@
 #include <Ultrasonic.h>
+#include <Servo.h>
+
 //each motor is controled by two pins,(plus an enable pin) and depening on what combination of values
 //you set the pins to you can get it to move in the desired direction
 #define left_motor_sleep 16
@@ -11,6 +13,11 @@
 #define right_motor_a 3
 #define right_motor_b 11
 #define right_motor_weight 1 //the final value sent to the motor will be multipled by this. set it between 0 and 1
+
+#define right_servo_pin 10
+#define left_servo_pin 9
+Servo myservoright;
+Servo myservoleft;
 
 Ultrasonic ultrasonic(A1, A0);
 int distance;
@@ -31,6 +38,10 @@ void setup() {
   //turn on the motor drivers
   digitalWrite(left_motor_sleep, HIGH);
   digitalWrite(right_motor_sleep, HIGH);
+  myservoleft.attach(left_servo_pin);
+  myservoright.attach(right_servo_pin);
+  pinMode(right_servo_pin, OUTPUT);
+  pinMode(left_servo_pin, OUTPUT);
 
   Serial.println("for this initialization, the code will tell both motors to drive forward");
   delay(1000);
@@ -39,6 +50,10 @@ void setup() {
   Serial.println("if one of the motors appears to be stronger than the other, edit its motor_weight at the top of the code");
   delay(1000);
   Serial.println("here we will also print the values of the ultrasonic sensor and line sensor so that you can ensure they both work");
+  delay(1000);
+  Serial.println("Lastly, we set the servos to the down position so that you can now install your servo flipper arms, if you are using them");
+  myservoleft.write(5);//Bucket down pos
+  myservoright.write(170);
   delay(1000);
   Serial.println("Here we go!");
   delay(333);
