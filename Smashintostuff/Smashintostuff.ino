@@ -48,7 +48,7 @@ void loop() {
   }
   else
   {
-    drive(4,0);
+    drive(6,0);
     delay(100);
   }
 
