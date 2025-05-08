@@ -83,7 +83,7 @@ void loop() {
   delay(30); //this shouldnt be here, but the ultrasonic cant keep up, so it is
   if(SUMOSTATE == 0)
   {
-    if((analogRead(6))>500)   //use < if the ring is black with a white line and > for vice versa
+    if((analogRead(6))>500)   //use < if the ring is black with a white line and > for white with a black line (do to line 149 aswell)
     {
       //if this code runs, that means we have seen a line!
       SUMOSTATE = 1;
